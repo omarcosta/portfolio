@@ -1,0 +1,272 @@
+
+       
+  @font-face {
+    font-family: gamePlay;
+    src: url(../../assets/fonts/Audiowide-Regular.ttf);
+ }
+ 
+ * {
+    font-family: gamePlay;
+ }
+     
+         * {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ 
+ /* html {
+    /* background: #eee; */ 
+ 
+ body {
+     margin: 0;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: rgb(61, 146, 201);
+ }
+ a:hover,
+ a:focus {
+     text-decoration: underline;
+ }
+ 
+ h3 {
+     font-weight: 100;
+ }
+ 
+ .col-1 {
+     max-width: 500px;
+     width: 30%;
+     z-index: 2;
+ }
+ .col-2 {
+     min-width: 1100px;
+     max-width: 1420px;
+     width: 70%;
+     float: right;
+ }
+ 
+ /* LAYOUT CSS */
+ .pure-img-responsive {
+     max-width: 100%;
+     height: auto;
+ }
+ #offcanvas-flip-screen {
+    min-width: 1100px;
+    width: 74%;
+ }
+
+
+ #layout {
+     padding: 0;
+ }
+ 
+ .header {
+     text-align: center;
+     top: auto;
+     margin: 3em auto;
+ }
+ 
+ .sidebar {
+     background: #293b49;
+     color: #fff;
+ }
+ 
+ .brand-title,
+ .brand-tagline {
+     margin: 0;
+ }
+ .brand-title {
+     text-transform: uppercase;
+     font-size: 3rem;
+ }
+ .brand-tagline {
+     font-weight: 300;
+     color: rgb(176, 202, 219);
+     font-size: 1.5rem;
+ }
+ 
+ .nav-list {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     margin-top: 1.5rem;
+ }
+ .nav-item {
+     display: inline-block;
+     *display: inline;
+     zoom: 1;
+ }
+ .play{
+    margin-top: 20rem;
+    text-align: center;
+    font-size: 2rem;
+ }
+ .play a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #fff;
+    /* margin-top: 1rem; */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* font-size: 150%; */
+    padding: 0.5rem;
+    border-radius: 40px;
+ }
+ 
+ .play a:hover,
+ .play a:focus {
+     border: 2px solid rgb(61, 146, 201);
+     text-decoration: none;
+     color: rgb(61, 146, 201);
+ }
+ 
+ .content-subhead {
+     text-transform: uppercase;
+     color: #aaa;
+     border-bottom: 1px solid #eee;
+     padding: 0.4em 0;
+     font-size: 80%;
+     font-weight: 500;
+     letter-spacing: 0.1em;
+ }
+ 
+ .content {
+     padding: 2em 1em 0;
+     
+     /* margin: 1rem; */
+ }
+ 
+ .post {
+     padding-bottom: 2em;
+ }
+ .post-title {
+     font-size: 2em;
+     color: rgb(61, 79, 93);
+     margin-bottom: 0.2em;
+     margin-top: 3rem;
+ }
+ .post-avatar {
+     border-radius: 50px;
+     float: right;
+     margin-left: 1em;
+ }
+ .post-description {
+     font-family: Georgia, "Cambria", serif;
+     color: #666;
+     line-height: 1.8em;
+ }
+ .post-meta {
+     color: #999;
+     font-size: 90%;
+     margin: 0;
+ }
+ 
+ .post-category {
+     margin: 0 0.1em;
+     padding: 0.3em 1em;
+     color: #fff;
+     background: #999;
+     font-size: 80%;
+ }
+     .post-category-1 {
+         background: #2ECC71;
+     }
+     .post-category-2 {
+         background: #2980B9;
+     }
+     .post-category-3 {
+         background: #9B59B6;
+     }
+     .post-category-4 {
+         background: #E67E22;
+     }
+     .post-category-5 {
+         background: #f1c40f;
+     }
+     .post-category-6 {
+        background: #C0392B;
+    }
+     
+ 
+ .post-images {
+     margin: 1em 0;
+ }
+ .post-image-meta {
+     margin-top: -3.5em;
+     margin-left: 1em;
+     color: #fff;
+     text-shadow: 0 1px 1px #333;
+ }
+ 
+ .footer {
+     
+     background-color: #152735;
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     height: 7vh;
+     width: 100vw;
+ }
+ .footer a {
+     color: #ccc;
+     font-size: 80%;
+ }
+ .footer .pure-menu a:hover,
+ .footer .pure-menu a:focus {
+     background: none;
+ }
+ .uk-offcanvas-bar {
+    background:  #293b49;
+ }
+.howtoplay div{
+    /* display: flex; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.howtoplay p {
+    margin-left: 1rem;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 13rem;
+}
+.socialmedia a{
+    padding: 0.5rem;
+}
+.copy {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ccc;
+}
+
+ @media (min-width: 48em) {
+     .content {
+         padding: 2em 3em 0;
+         
+         
+     }
+ 
+     .header {
+         margin: 8% 2em 0;
+         text-align: right;
+     }
+ 
+     .sidebar {
+         position: fixed;
+         top: 0;
+         bottom: 0;
+     }
+ 
+     .footer {
+         text-align: center;
+     }
+ 
+ 
+ }
+ 
+     
