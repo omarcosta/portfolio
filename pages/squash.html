@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
-    <title>Blog &ndash; Layout Examples &ndash; Pure</title>
+    <meta name="description" content="Squash the Creeps is a prototype 3D game developed on the. The prototype aims to explore Godot's resources in a real application, having fun along the way.">
+    <title>Play now | Squash the Creeps</title>
     <link rel="stylesheet" href="../lib/uikit/css/uikit.min.css">
     <script src="../lib/uikit/js/uikit.min.js"></script>
     <script src="../lib/uikit/js/uikit-icons.min.js"></script>
@@ -21,15 +21,6 @@
         <div class="header">
             <h2 class="brand-tagline">3D game prototype</h2>
             <h1 class="brand-title">Squash the Creeps</h1>
-<!-- 
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        
-                        <a class="pure-button" uk-toggle="target: #offcanvas-flip">Play now</a>
-                    </li>
-                </ul>
-            </nav> -->
             <div class="play">
                 <a class="pure-button" uk-toggle="target: #offcanvas-flip">Play now</a>
             </div>
@@ -43,16 +34,11 @@
 
     <div class="content col-2">
         <div>
-            <!-- A wrapper for all the blog posts -->
             <div class="posts">
                 <h1 class="content-subhead">Release v1.0.3: OK</h1>
-
-                <!-- A single blog post -->
                 <section class="post">
                     <header class="post-header">
-                        
                         <h2 class="post-title" style="margin-top:1rem;">Welcome to Squash the Creeps</h2>
-
                         <p class="post-meta">
                             By <a href="https://www.linkedin.com/in/omarcosta152/" target="_blank" class="post-author">Omar Costa</a> under 
                             <a class="post-category post-category-1" href="#">GDScript</a> 
@@ -61,16 +47,13 @@
                             <a class="post-category post-category-4" href="#">HTML5</a>
                             <a class="post-category post-category-5" href="#">JavaScript</a>
                             <a class="post-category post-category-6" href="#">Git</a>
-
                         </p>
                     </header>
-
                     <div class="post-description">
                         <p>
-                            Squash the Creeps é um prototipo de jogo 3D desenvolvido na game engine <a href="https://godotengine.org/" target="_blank">Godot</a>. O prototipo visa explorar os recursos da Godot em uma aplicação real e claro, se divertir ao longo do processo. Referência: <a href="https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html">Your first 3d game</a>
+                            Squash the Creeps is a prototype 3D game developed on the  <a href="https://godotengine.org/" target="_blank">Godot Game Engine</a>. The prototype aims to explore Godot's resources in a real application, having fun along the way. Reference:  <a href="https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html" target="_blank">Your first 3d game</a>
                         </p>
                     </div>
-
                     <div class="Gamemode">
                         <h2 class="post-title">Game Mode</h2>
                         <p>
@@ -79,55 +62,45 @@
                         <p>
                             <strong>Release v2 (coming soon):</strong> Keeps the points game mode and adds the survival mode. Wins player who stays the longest without causing collisions or leaving the screen
                         </p>
-
                     </div>
-
-
-
-
-
-                        <div class="howtoplay">
-                            <h2 class="post-title">How to play?</h2>
-                            <div>
-                                <img src="../assets/keyboard.png" alt="Keyboard">
-                                <p>
-                                    <strong>Arrow keys, W, A, S, D:</strong> Move <br>
-                                    <strong>Space:</strong> Jump
-                                </p>
-                            </div>
-                        </div><!-- Fim How to play  -->
-
+                    <div class="howtoplay">
+                        <h2 class="post-title">How to play?</h2>
+                        <div>
+                            <img src="../assets/keyboard.png" alt="Keyboard">
+                            <p>
+                                <strong>Arrow keys, W, A, S, D:</strong> Move <br>
+                                <strong>Space:</strong> Jump
+                            </p>
+                        </div>
+                    </div><!-- Fim How to play  -->
                     </div>
                 </section>
             <!-- <div>
                 <embed type="text/html" src="https://morfeu12.github.io/squash_the_creeps/" width="1080" height="720">
             </div> -->
             </div>
-
-          
         </div>
     </div>
-
     <div>
-        
-       
         <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
             <div id="offcanvas-flip-screen" class="uk-offcanvas-bar">
-
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
-
                 <h3>Playing . . .</h3>
                 <div>
-
                     <embed type="text/html" src="https://morfeu12.github.io/squash_the_creeps/" width="1080" height="720" style="display:flex;margin-left:auto;margin-right: auto;">
                 </div>
-
             </div>
         </div>
-
     </div>
-    
 </div>
+
+<script>
+    (function(){
+        let width = window.innerWidth
+        if (width < 1600) 
+            window.document.body.innerHTML = '<div class="mobile"><p>This game page has no mobile support. <br>Access from a device that supports 1920x1080 resolution for the best experience.<br>Thank you very much!</p></div>'
+    })();
+</script>
 
 </body>
 </html>
